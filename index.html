@@ -330,33 +330,33 @@
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-          </div>
-          <div class="nav-actions" id="navActions">
-            <button
-              class="btn btn-ghost"
-              type="button"
-              id="login-submit"
-              onclick="openAuthModal('login')"
-            >
-              Log In
-            </button>
-            <button
-              class="btn btn-primary"
-              type="button"
-              id="signup-submit"
-              onclick="openAuthModal('signup')"
-            >
-              Sign Up
-            </button>
-            <div class="nav-user-area" id="navUserArea">
-              <span class="nav-user-greeting" id="navUserGreeting"></span>
+            <div class="nav-actions" id="navActions">
               <button
                 class="btn btn-ghost"
                 type="button"
-                onclick="handleLogout()"
+                id="login-submit"
+                onclick="openAuthModal('login')"
               >
-                Log Out
+                Log In
               </button>
+              <button
+                class="btn btn-primary"
+                type="button"
+                id="signup-submit"
+                onclick="openAuthModal('signup')"
+              >
+                Sign Up
+              </button>
+              <div class="nav-user-area" id="navUserArea">
+                <span class="nav-user-greeting" id="navUserGreeting"></span>
+                <button
+                  class="btn btn-ghost"
+                  type="button"
+                  onclick="handleLogout()"
+                >
+                  Log Out
+                </button>
+              </div>
             </div>
           </div>
         </div>
