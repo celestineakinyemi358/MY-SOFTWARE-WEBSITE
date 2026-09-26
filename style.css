@@ -410,7 +410,7 @@
          }
 
          .nav-actions {
-             position: fixed;
+             position: static;
              top: calc(var(--nav-h) + 250px);
              left: 0;
              right: 0;
@@ -428,7 +428,8 @@
          }
 
          .hamburger {
-             display: block;
+             display: flex;
+             margin-left: 60%;
          }
      }
 
