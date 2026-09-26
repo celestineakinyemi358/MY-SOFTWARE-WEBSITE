@@ -420,6 +420,13 @@
              position: static;
              background: transparent;
              padding: 8px 0 0;
+             top: calc(var(--nav-h) + 250px);
+             left: 0;
+             right: 0;
+             background: var(--ink);
+             padding: 0 28px 28px;
+             transform: translateY(-130%);
+             transition: transform var(--ease);
              flex-direction: column;
              align-items: flex-start;
          }
