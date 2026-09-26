@@ -8,9 +8,7 @@
            being stored; the plain-text password itself is never saved.
          - "Forgot password" -> "reset link sent" flow (simulated — see notes below)
          - Slide-to-verify human check gating the login/signup forms
-         - AI Assistant chat — calls the Anthropic API directly. Works live in the
-           Claude.ai preview; gracefully falls back to canned replies if the API
-           can't be reached (e.g. once this file is hosted on your own domain).
+         - AI Assistant chat — calls the Anthropic API directly.
          - Contact form opens the visitor's email app with a pre-filled message.
 
          WHAT NEEDS REAL BACKEND WORK BEFORE THIS GOES LIVE FOR REAL USERS:
